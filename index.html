@@ -7,12 +7,24 @@
   <title>TIC TAC TOE</title>
   <script src="./index.js" defer></script>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="board">
-    <div class="r0 c0"></div><div class="r0 c1"></div><div class="r0 c2"></div>
-    <div class="r1 c0"></div><div class="r1 c1"></div><div class="r1 c2"></div>
-    <div class="r2 c0"></div><div class="r2 c1"></div><div class="r2 c2"></div>
+  <div class="header">
+    <label for="player1">Player1:</label>
+    <input type="text" name="player1" id="player1">
+    <label for="player2">Player2:</label>
+    <input type="text" name="player2" id="player2">
+    <button type="submit">Enter</button>
   </div>
+  <div class="body">
+    <div class="board">
+      <div class="r0 c0"></div><div class="r0 c1"></div><div class="r0 c2"></div>
+      <div class="r1 c0"></div><div class="r1 c1"></div><div class="r1 c2"></div>
+      <div class="r2 c0"></div><div class="r2 c1"></div><div class="r2 c2"></div>
+    </div>
+    <div class="text"></div>
+  </div>
+
 </body>
 </html>
