@@ -52,7 +52,7 @@ const GameBoard = (function() {
     counter++;
     if(counter === 9) {
       Dom.print('Draw');
-      setTimeout(resetGame, 5000);
+      setTimeout(resetGame, 1500);
     }
 
     player1.toggleTurn();
@@ -67,7 +67,7 @@ const GameBoard = (function() {
         winner = player2;
       }
       Dom.print(`${winner.getName()} win!`);
-      setTimeout(resetGame, 5000);
+      setTimeout(resetGame, 1500);
     }
     
   }
@@ -136,7 +136,7 @@ function Player (name, turn){
   const toggleTurn = () => {
     this.turn = !this.turn;
   };
-  function setName(name) {this.name = name};
+  const setName = (name)=> {this.name = name};
   const getName = ()=> this.name;
   return {getName, setName, toggleTurn, checkTurn};
 }
