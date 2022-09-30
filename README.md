@@ -1,5 +1,5 @@
 # TIC-TAC-TOE
-A simple Tic-Tac-Toe game app to practice DOM manipulation using event listeners.
+A simple Tic-Tac-Toe game app to practice DOM manipulation and using event listeners.
 
 ## Built with
 HTML, CSS, Vanila Javascript.
